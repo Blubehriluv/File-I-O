@@ -11,19 +11,15 @@ void frWrite()
 	system("Pause");
 }
 
-/*
+
 //File parsing method
 void frParse()
 {
-	if (fullText != "")
+	for (int i = 0; i < fullText.length(); i++)
 	{
-		int counter = -0;
-		do {
-
-			
-		} while (counter < fullText.length);
-	}	
-}*/
+		//Check for the - and use whats before and afterwards.  I'll do this later
+	}
+}
 
 //File reading method
 void frRead()
@@ -39,8 +35,8 @@ void frRead()
 	cout << "The file is closed" << endl;
 
 	system("Pause");
-	//frParse();
-	frWrite();
+	frParse();
+	//frWrite();
 }
 
 //File creation method
