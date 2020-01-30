@@ -1,0 +1,78 @@
+C++ Keywords
+
+asm - Declaration of an inline assembly block.
+auto - auto placeholder type specifier.
+bool - data type which only holds values true or false.
+break - a loop statement that is used to terminate loops.
+case - A switch case is a control statement that allows a value to change control of execution.
+catch - Determines which types of exceptions cause the catch clause to trigger an action.
+char - a variable that can hold a character.
+class - A user defined type or data structure that has data and functions which have governed access of private, protected, or public.
+const - use this when modifying a data declaration to specify the object/variable is not modifiable.
+const_cast - makes it possible to form a reference or pointer to non-const type that is actually referring to a const object.
+continue - a loop control statement that is the opposite of a break.  Instead of terminating a loop, it forces to execute the next iteration.
+default - Empty parameter in a constructor that can be called with no arguments.
+delete - An operator that is used to destroy array and non-array(pointer) objects.
+do - A type of while loop that is guaranteed to execute at least one time because the condition is at the bottom.
+double - 64-bit floating data type that can represent fractional and whole values.
+dynamic_cast - Converts base-class pointers into derived-class pointers (aka downcasting).
+else - an optional statement that exists after if statements, executing when the boolean expression is false.
+enum - A distinct type whose value is restricted to a range of values.
+explicit - Must be used with a constant expression.  The function is explicit if and only if that expression evaluates to true.
+export - Used to mark template definitions as “exported” which allows the template to be declared (not defined) in other translation units.
+extern - When applied to a global variable/function/template, it specifies that the name of that thing has external linkage.
+false - The boolean default value of false.
+float - Short for “floating point”, a data type that defines numeric values with floating decimal points.
+for - Executes an initiating statement once, then executes statements and iterative expressions repeatedly until the value of the condition becomes false.  (The test takes place before each iteration.)
+friend - A type of class that can access private and protected members of other class in which it is declared as friend.
+goto - A statement that provides an unconditional jump from the goto to a labeled statement in the same function.
+if - A statement that evaluates the test expression found inside the parenthesis.
+inline - An enhancement feature to increase the execution time of a program.
+int - A data type that can only hold whole numbers.
+long - A data type modifier.
+mutable - A storage class specifier that is mainly used to allow a particular data member of const object to be modified.
+namespace - Allow grouped entities like classes, objects, and functions under a name.
+new - Creating something in the dynamic memory.
+operator - Symbols to help us perform specific mathematical and logical computations on operands.
+private - Private can only be accessed by the functions inside the class.
+protected - This keyword specifies access to class members in the member list up to the next access specifier or the end of the class definition.
+public - Allowing something within a class to be accessed elsewhere.
+register - Allows a variable to be stored in a processor rather than in memory.
+reinterpret_cast - It is a compile-time directive which tells the compiler to treat expressions as if it had the type new_type
+return - Terminates the current function and returns the specified value to its caller.
+short - target type will be optimized for space and will have a width of at least 16 bits.
+signed - target type will have signed representation.
+sizeof - Queries size of the object or type.
+static - members of a class are not associated with the objects of the class.
+static_cast - Converts between types using implicit and user-defined conversions. 
+struct - are user-defined type.
+switch - Transfers control to one of the several statements, depending on the value
+template - a C++ entity that defines classes, functions, and variables
+this - an expression whose value is the address of the object.
+throw - Signals an erroneous condition and executes an error handler. 
+true - the boolean default value of true.
+try - Associates one or more exception handlers with a compound statement.
+typedef - creates an alias that can be used anywhere in place of a type name.
+typeid - Queries information of a type.
+typename - can be used as an alternative to class
+union - A union is a class type that can hold only one of its non-static data members at a time.
+unsigned - target type will have unsigned representation
+using - that names the inline namespace is implicitly inserted in the enclosing namespace
+virtual - specifier specifies that a non-static member function is virtual and supports dynamic dispatch.
+void - a type with an empty set of values.
+volatile - defines that the type is volatile
+wchar_t - a type for wide character representation
+while - A loop that goes until a condition is met.
+
+C++ Reserved Words
+and - checks to make sure the values are both correct.
+and_eq - Checks to see if both values are correct or equal
+bitand - alternate operator for and
+bitor - alternate operator for or
+compl - alternate operator for not
+not - makes a check the opposite of what it was.
+not_eq - checks to make sure the values are not equal to each other
+or - checks to make sure at least one value is correct.
+or_eq - Checks to see if a value is equal to multiple options
+xor - checks to make sure only one value is correct.
+xor_eq - Checks to see if one value could be equal to multiple options

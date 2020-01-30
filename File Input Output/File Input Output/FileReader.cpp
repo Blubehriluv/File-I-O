@@ -7,7 +7,8 @@ string fullText;
 
 void frWrite()
 {
-	
+	cout << fullText;
+	system("Pause");
 }
 
 /*
@@ -39,6 +40,7 @@ void frRead()
 
 	system("Pause");
 	//frParse();
+	frWrite();
 }
 
 //File creation method
